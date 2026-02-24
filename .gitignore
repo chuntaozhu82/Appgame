@@ -1,0 +1,41 @@
+# 编译产物
+/build
+/bin
+/lib
+
+# 第三方依赖
+/external/*
+!/external/README.md
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE配置文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 平台特定文件
+*.xcodeproj/
+*.xcworkspace/
+AndroidManifest.xml
+
+# 日志文件
+*.log
+logs/
+
+# 缓存文件
+.cache/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
